@@ -1,0 +1,59 @@
+@font-face {
+  font-family: InterRegular;
+  src: url(./assets/fonts/static/Inter-Regular.ttf);
+}
+@font-face {
+  font-family: InterBold;
+  src: url(./assets/fonts/static/Inter-Bold.ttf);
+}
+
+body {
+  font-family: InterRegular;
+  background-color: hsl(0, 0%, 8%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 900px;
+  color: white;
+}
+.card {
+  background-color: hsl(0, 0%, 12%);
+  width: 400px;
+  height: 650px;
+  border-radius: 12px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 12px;
+}
+.card img {
+  height: 82px;
+  width: 82px;
+  border-radius: 50%;
+}
+
+.card h1 {
+  font-family: InterBold;
+}
+.card h3 {
+  color: hsl(75, 94%, 57%);
+  font-weight: 400;
+}
+
+.card button {
+  background-color: hsl(0, 0%, 20%);
+  width: 300px;
+  height: 50px;
+  border: none;
+  border-radius: 8px;
+  margin: 8px;
+  color: white;
+  font-weight: 600;
+}
+
+.attribution {
+  display: flex;
+  gap: 12px;
+}
